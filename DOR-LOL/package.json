@@ -1,0 +1,15 @@
+{
+  "name": "dor-lol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve -d dist src/index.html",
+    "build": "rm -rf build && parcel build -d build --public-url https://Angel170605.github.io/DOR-LOL-1T src/index.html",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
