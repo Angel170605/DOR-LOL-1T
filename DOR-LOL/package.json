@@ -7,15 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel serve -d dist src/index.html",
     "build": "rm -rf build && parcel build -d build --public-url /DOR-LOL-1T/ src/index.html",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.1.1"
-  },
-  "dependencies": {
+    "gh-pages": "^6.1.1",
     "parcel-bundler": "^1.12.5"
   }
 }
